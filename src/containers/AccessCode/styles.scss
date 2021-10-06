@@ -1,0 +1,28 @@
+@import "../../components/LoginScreen/LoginScreen.styles.scss";
+
+.form-input {
+  width: 100%;
+  margin-bottom: 10px !important;
+  .MuiOutlinedInput-root {
+    border-radius: 5px;
+  }
+  .MuiInputLabel-formControl {
+    color: $color-18;
+  }
+  .MuiInputBase-root {
+    color: $color-17;
+  }
+  .MuiOutlinedInput-root:hover,
+  .MuiOutlinedInput-notchedOutline {
+    border-color: $color-18;
+  }
+  .MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline {
+    border-color: $color-16 !important;
+  }
+  .MuiFormLabel-root.Mui-focused {
+    color: $color-16 !important;
+  }
+  .MuiOutlinedInput-root:hover .MuiOutlinedInput-notchedOutline {
+    border-color: $color-16;
+  }
+}

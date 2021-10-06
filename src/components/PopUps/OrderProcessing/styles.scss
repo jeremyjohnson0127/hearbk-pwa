@@ -1,0 +1,27 @@
+@import "../../../scss/common.styles.scss";
+
+  .orderProcessingContainer {
+    .refreshIcon {
+      width: 57px;
+      height: 64px;
+      margin: auto;
+      animation: rotation 3s infinite linear;
+      @keyframes rotation {
+        from {
+          transform: rotate(0deg);
+        }
+        to {
+          transform: rotate(359deg);
+        }
+      }
+    }
+    .processingLabel {
+      margin-top: 96px;
+      color: $main-1;
+      font-size: $font-size-normal;
+      font-family: $font-family-2;
+      font-weight: 700;
+      letter-spacing: 1.4px;
+      text-align: center;
+    }
+}

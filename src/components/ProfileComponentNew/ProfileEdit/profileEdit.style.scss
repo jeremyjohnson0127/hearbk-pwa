@@ -1,0 +1,117 @@
+@import "../../../scss/variables.scss";
+
+.profile-text-container {
+    border: 1px solid $color-21;
+    border-radius: 6px;
+    height: 50px;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    margin: 30px 0px;
+}
+.profile-edit-text-label {
+    color: $color-21;
+    font-size: 12px;
+    font-weight: bold;
+    position: absolute;
+    top: -8px;
+    left: 30px;
+    background: $color-24;
+    padding: 0 5px;
+    font-family: $font-family-2;
+}
+.profile-edit-formInputField {
+    width: 90%;
+    background: transparent;
+    border: none;
+    color: $color-17;
+    font-family: $font-family-2;
+    font-size: $font-size-normal;
+}
+.profile-text-container-2 {
+    border: 1px solid $color-21;
+    border-radius: 6px;
+    height: 120px;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    margin: 30px 0px;
+    margin-bottom: 5px;
+    .profile-edit-formInputField {
+        padding-top: 10px;
+    }
+}
+.bio-max-words {
+    font-size: 10px;
+    color: $color-20;
+    float: right;
+    font-family: $font-family-2;
+}
+.profile-text-container-3 {
+    border: 1px solid $color-21;
+    border-radius: 6px;
+    height: 50px;
+    display: flex;
+    position: relative;
+    justify-content: initial;
+    margin: 30px 0px;
+    padding-left: 30px;
+    .profile-edit-formInputField {
+        width: 40px;
+        height: 35px;
+        color: $main-4;
+        text-align: center;
+        font-size: 14px;
+        border-bottom: 1px solid $color-21;
+    }
+    .profile-edit-filter-slash {
+        align-self: center;
+        height: 35px;
+        padding-top: 5px;
+        font-size: 14px;
+        color: $main-4;
+        margin: 0px 13px;
+    }
+}
+.profile-text-container-4 {
+    border: 1px solid $color-21;
+    border-radius: 6px;
+    height: 92px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    justify-content: space-around;
+    margin: 30px 0px;
+    padding: 15px;
+    .price-input-container {
+        display: flex;
+        .dollar-text {
+            padding: 0px 10px;
+            border-bottom: 1px solid $color-21;
+            color: $main-4;
+            font-family: $font-family-2;
+            font-weight: bold;
+        }
+    }
+    .profile-edit-formInputField {
+        border-bottom: 1px solid $color-21;
+        width: 100%;
+    }
+    .set-price-content {
+        color: $color-28;
+        font-size: $font-size-small;
+        font-style: italic;
+        font-family: $font-family-2;
+        text-align: initial;
+    }
+}
+.profile-edit-save-button {
+    width: 100%;
+    height: 40px;
+    margin-top: 40px;
+    background: $color-21;
+    border: none;
+    font-family: $font-family-2;
+    border-radius: 5px;
+    color: $main-1;
+}

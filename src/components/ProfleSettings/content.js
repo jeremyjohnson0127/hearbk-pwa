@@ -1,0 +1,16 @@
+export default {
+    VERSION_HISTORY: "Version History",
+    CHANGE_EMAIL: "Change Email",
+    CHANGE_PASSWORD: "Change Password",
+    TERMS_AND_CONDITIONS: "Terms and Conditions",
+    PRIVACY_AND_POLICY: "Privacy and Policy",
+    CANCEL_SUBSCRIPTION: "Cancel Subscription",
+    AUTO_RENEW: "Auto renew",
+    LOGOUT: "Logout",
+    CONTACT_US: "Contact Us",
+    OLD_EMAIL: "Old Email",
+    NEW_EMAIL:"New Email",
+    NEW_PASSWORD: "New Password",
+    CONFIRM_PASSWORD: "Confirm Password",
+    SAVE: "Save",
+}
