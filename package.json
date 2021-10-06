@@ -31,7 +31,7 @@
     "react-input-mask": "^2.0.4",
     "react-redux": "^7.1.3",
     "react-router-dom": "^5.1.2",
-    "react-scripts": "^3.4.3",
+    "react-scripts": "^4.0.3",
     "react-stripe-elements": "^6.0.1",
     "react-svg": "^10.0.23",
     "react-swipeable": "^5.5.0",
@@ -65,7 +65,7 @@
     ]
   },
   "devDependencies": {
-    "rc-slider": "^9.2.4",
-    "gh-pages": "^3.2.3"
+    "gh-pages": "^3.2.3",
+    "rc-slider": "^9.2.4"
   }
 }

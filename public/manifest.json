@@ -1,0 +1,45 @@
+{
+  "short_name": "BREAKER",
+  "name": "BREAKER - The New Breeding Ground",
+  "icons": [
+    {
+      "src": "breakerIcon.jpeg",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "breakerIcon.jpeg",
+      "type": "image/png",
+      "sizes": "57x57"
+    },
+    {
+      "src": "breakerIcon.jpeg",
+      "type": "image/png",
+      "sizes": "50"
+    },
+    {
+      "src": "breakerIcon.jpeg",
+      "type": "image/png",
+      "sizes": "114x114"
+    },
+    {
+      "src": "breakerIcon.jpeg",
+      "type": "image/png",
+      "sizes": "120x120"
+    },
+    {
+      "src": "breakerIcon.jpeg",
+      "type": "image/png",
+      "sizes": "167x167"
+    },
+    {
+      "src": "breakerIcon.jpeg",
+      "type": "image/png",
+      "sizes": "180x180"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
